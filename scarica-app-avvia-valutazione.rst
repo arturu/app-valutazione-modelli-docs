@@ -1,85 +1,54 @@
 Installazione e uso delle app
 =============================
 
-Le App di valutazione sono distribuite sotto forma di file zip, contenenti l’eseguibile del programma e un file readme di istruzioni.
 
-Per scaricare l'app e avviare una valutazione: 
-   
-1. `Vai sul repository GitHub <https://github.com/italia/pa-website-validator/releases>`_.
+Avviare una nuova scansione
+------------------------------
 
-2. Individua l'app corretta in base al modello di riferimento (comuni/scuole), sistema operativo (macOS/windows/linux) e processore (intel/arm64/x64) e clicca per scaricare il file zip. Assicurati che la release sia l'ultima disponibile, contrassegnata dall'etichetta verde "Latest". **Per il corretto funzionamento dell'app su Windows, è necessario utilizzare Windows 10 o superiori, oppure Windows Server 2016 o superiori.**
+Nella tab "Nuova scansione":
 
-.. figure:: media/repo-github.png
-   :alt: La figura mostra dove inserire l'url del sito nell'App di valutazione.
-   :name: repo-github
+1. Seleziona la **tipologia ente** (Comune o Scuola);
 
-   La lista dei file di installazione.
+2. inserisci la **URL del sito** da scansionare, includendo il protocollo http:// o https://;
 
-3. Estrai il file zip sul tuo computer.
+3. se vuoi modificare le **impostazioni avanzate**, clicca sulla barra per espandere la sezione e indica *accuratezza* (quante pagine scansionare), *quante pagine scansionare simultaneamente* e *timeout* (il tempo massimo di caricamento di ciascuna pagina, espresso in millisecondi);
 
-4. Avvia il file eseguibile per far partire l'app.
-   
-5. Se richiesto, dai l'autorizzazione ad aprire il file. 
-      
-Su *mac*, clicca su 'Apri' nella finestra di dialogo. 
-      
+4. seleziona i criteri e le raccomandazioni che vuoi verificare dalla lista. Puoi selezionarli o deselezionarli tutti cliccando su "Seleziona tutto";
 
-.. figure:: media/permessi-mac-short.png
-   :alt: La figura mostra la procedura per consentire i permessi su mac.
-   :name: permessi-mac-short
+5. clicca il pulsante "Avvia scansione" per avviare la scansione.
 
-   La finestra di dialogo dove dare i permessi su mac per aprire l'app.
-   
-      
-Se il pulsante Apri non è disponibile, è necessario andare in Preferenze di sistema > Sicurezza e Privacy. Nella tab 'Generali', assicurati sia selezionata l'opzione 'App Store e sviluppatori identificati' sotto la voce 'Consenti app scaricate da' . Se la finestra è oscurata e non è possibile effettuare modifiche, clicca sul lucchetto in basso a sinistra e inserisci la tua password. Troverai un messaggio riguardante il file che hai appena cercato di aprire. Clicca su 'Apri comunque'. Potrebbe comparire un'ulteriore finestra di dialogo dove è necessario cliccare su 'Apri'.
-      
-      
-.. figure:: media/permessi-mac-long.png
-   :alt: La figura mostra la procedura per consentire i permessi su mac.
-   :name: permessi-mac-long
+Avviata la scansione, non sarà più possibile modificare i dati e le preferenze, ma dovrai cliccare sul pulsante "Annulla scansione" e avviarne una nuova.
 
-   La finestra nelle impostazioni del mac dove dare i permessi per l'app.
-      
-      
-Su *Windows*, al messaggio di avviso sulla sicurezza dell'app, clicca sul testo 'Maggiori informazioni'. Nella seconda finestra di dialogo, clicca su 'Esegui comunque'.
-      
-      
-.. figure:: media/avviso-windows.png
-   :alt: La figura mostra la procedura per consentire i permessi su windows.
-   :name: avviso-windows
+Durante la scansione
+-----------------------
 
-   La finestra di dialogo dove dare i permessi su Windows per aprire l'app.
+All’avvio della scansione, verranno visualizzati:
+
+- le impostazioni avanzate selezionate (accuratezza, pagine scansionate simultaneamente, timeout);
+- una barra di avanzamento della scansione;
+- la lista dei log delle verifiche che l'app sta effettuando.
+
+Puoi annullare la scansione in qualsiasi momento cliccando sul pulsante "Annulla scansione".
+
+Al termine della scansione
+----------------------------
+Conclusa la scansione, si aprirà un resoconto riassuntivo del risultato.
 
 
-6. Quando richiesto, nella finestra di comando, inserisci l'URL del sito su cui condurre l'analisi e premi invio. L’URL deve comprendere il protocollo (http:// o https://).
+Per approfondire, vai alle indicazioni su come leggere i report e i risultati.
 
-   
-.. figure:: media/1-url.png
-   :alt: La figura mostra dove inserire l'url del sito nell'App di valutazione.
-   :name: 1-url
+Visualizzare lo storico delle scansioni
+-----------------------------------------
 
-   Dove inserire l'url del sito nell'App di valutazione.
-   
+Nella tab "Storico sansioni", puoi visualizzare tutte le scansioni effetuate.
 
-7. Usando le frecce sulla tastiera, sposta il cursore per selezionare se il sito è in un ambiente locale (sito in fase di sviluppo) o di produzione (visibile al pubblico) e premi invio.
+Per ogni scansione, trovi le informazioni sulla tipologia di ente, l'url del sito, la durata, il risultato, i criteri superati, il totale dei criteri verificati, la data e l'ora.
 
-   
-.. figure:: media/2-ambiente.png
-   :alt: La figura mostra dove selezionare nell'App di valutazione l'ambiente su cui è ospitato il sito che si vuole analizzare.
-   :name: 2-ambiente
-   
-   Selezione dell'ambiente su cui è ospitato il sito che si vuole analizzare.
-   
-8. Usando le frecce sulla tastiera, sposta il cursore per selezionare se vuoi condurre un'analisi approfondita (vengono valutate tutte le pagine trovate delle categorie specificate) o un'analisi veloce (vengono valutate alcune pagine selezionate casualmente).
+Cliccando sui pulsanti di fianco ogni scansione, puoi:
 
-9. Attendi qualche secondo che l’app inizi l’analisi. Per il completamento ci vorranno fino a 10 minuti, in base al tipo di analisi scelta e alla dimensione del sito.
-
-10. Consulta il report che si aprirà automaticamente al termine dell'analisi. Il report viene salvato nella cartella indicata dall'app.
-
-.. figure:: media/3-cartella-report.png
-   :alt: La figura mostra dove selezionare nell'App di valutazione l'ambiente su cui è ospitato il sito che si vuole analizzare.
-   :name: 2-cartella-report
-   
-   Termine dell'analisi e indicazione della cartella di salvataggio.
+1. vedere il dettaglio della scansione;
+2. visualizzare il report dettagliato;
+3. scaricare il report;
+4. eliminare la scansione e il relativo report dallo storico.
 
 
