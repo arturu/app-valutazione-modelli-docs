@@ -75,8 +75,33 @@ Nel caso in cui una o più pagine presentino errori di navigazione che impedisco
 
 Dettaglio dei risultati
 --------------------------
+Nella sezione del dettaglio dei risultati trovi, in alto, la **legenda** che indica come vengono segnalati i **controlli superati (verde)**, **falliti (rosso)** e **con errore (simbolo X rosso)**.
 
+Sotto la leggenda trovi una serie di sezioni espandibili con:
 
+1. i dettagli dei controlli che hanno generato errori;
+2. i dettagli dei criteri non superati;
+3. i dettagli dei criteri superati;
+4. i dettagli delle raccomandazioni non obbligatorie;
+5. il link al report di lighthouse, che non è oggetto di verifica della misura ma offre indicazioni su prestazioni e accessibilità del sito.
+
+Espandendo un accordion, trovi:
+
+a. la lista dei controlli per quella categoria con un bollino che mostra il risultato della scansione per ogni controllo
+
+Al clic su un elemento della lista, trovi:
+
+b. il bollino del risultato del controllo (spunta verde se superato, punto esclamativo rosso se fallito);
+c. il codice e il nome del controllo;
+d. il dettaglio del controllo, che puoi espandere per approfondire i requisiti di successo, le modalità di verifica e i riferimenti normativi;
+e. il resoconto del controllo - testo che riporta la presenza di errori nelle pagine scansionate. Nel caso in cui ci siano raccomandazioni che risultano non essere superate, il testo riporta la presenza di errori nelle pagine scansionate
+f. una tabella di dettaglio con ulteriori informazioni sul risultato.
+
+N.B.: non tutti i criteri e le raccomandazioni hanno la stessa modalità di visualizzazione dei risultati della scansione, alcune viste possono variare a seconda dei requisiti richiesti e potrebbero presentare informazioni aggiuntive o mancanti.
+
+Risultato con errore di navigazione per homepage
+Nel caso in cui la pagina che presenta un errore di navigazione sia la homepage del sito la scansione risulterà fallita, di conseguenza, il report riporterà i criteri che non è stato possibile verificare e non verrà generato l’accordion per visualizzare la lista dei criteri superati. 
+Dal momento che la navigazione per la homepage risulta fallita, il report di Lighthouse non verrà generato e l’accordion riportante il dettaglio del report non sarà visibile.
 
 
 
