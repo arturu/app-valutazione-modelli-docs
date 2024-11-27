@@ -34,7 +34,6 @@ Nel banner superiore del report trovi:
    :alt: Le informazioni di dettaglio per ogni test riguardante i criteri di conformità.
    :name: criteri-conformita
 
-   Le informazioni di dettaglio per ogni test riguardante i criteri di conformità.
 
 
 Documentazione di riferimento
@@ -51,10 +50,6 @@ In questa sezione del report, sotto forma di rappresentazione grafica, trovi:
 
 1. il risultato generale della scansione;
 2. il dettaglio dei criteri di conformità superati, divisi per pacchetto, espresso in percentuale (ad esempio 100%, 60%, 0%, ecc.) e in numeri (ad esempio, 9 criteri su 9 superati, 16 criteri su 20 superati, ecc.).
-
-.. figure:: media/risultato-generale-positivo.png
-   :alt: Le informazioni di dettaglio per ogni test riguardante i criteri di conformità.
-   :name: criteri-conformita
 
 
 Il risultato generale è *positivo* nel caso in cui tutti i criteri siano stati superati e il grafico presenterà un “OK” bianco in un cerchio verde. 
@@ -78,6 +73,8 @@ Nel caso in cui una o più pagine presentino errori di navigazione che impedisco
    :name: criteri-conformita
 
 
+Dettaglio dei risultati
+--------------------------
 
 
 
