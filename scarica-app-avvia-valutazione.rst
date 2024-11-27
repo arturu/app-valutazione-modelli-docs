@@ -1,8 +1,10 @@
 Installazione e uso delle app
 =============================
 
+Installare le app
+---------------------
 
-Avviare una nuova scansione
+Avviare una scansione
 ------------------------------
 
 Nella tab "Nuova scansione":
@@ -19,23 +21,24 @@ Nella tab "Nuova scansione":
 
 Avviata la scansione, non sarà più possibile modificare i dati e le preferenze, ma dovrai cliccare sul pulsante "Annulla scansione" e avviarne una nuova.
 
-Durante la scansione
------------------------
-
-All’avvio della scansione, verranno visualizzati:
+Durante la scansione, verranno visualizzati:
 
 - le impostazioni avanzate selezionate (accuratezza, pagine scansionate simultaneamente, timeout);
 - una barra di avanzamento della scansione;
 - la lista dei log delle verifiche che l'app sta effettuando.
 
-Puoi annullare la scansione in qualsiasi momento cliccando sul pulsante "Annulla scansione".
-
-Al termine della scansione
-----------------------------
-Conclusa la scansione, si aprirà un resoconto riassuntivo del risultato.
 
 
-Per approfondire, vai alle indicazioni su come leggere i report e i risultati.
+Visualizzare il risultato della scansione e accedere al report dettagliato
+-----------------------------------------------------------------------------
+Conclusa la scansione, si aprirà un resoconto riassuntivo che mostrerà:
+
+- il risultato generale della scansione (OK verde per risultato positivo, KO rosso per risultato negativo, X rossa per errori nella scansione);
+- una sezione espandibile "Criteri e raccomandazioni", con la lista delle verifiche svolte e il relativo risultato. In questa sezione puoi cambiare la selezione dei criteri e/o delle raccomandazioni e avviare una nuova scansione, cliccando sul pulsante "Riavvia scansione";
+- una sezione espandibile "Consulta il log" con la lista dei log delle verifiche svolte dall'app.
+
+Al clic sui pulsanti in altro a destra puoi visualizzare o scaricare il report dettagliato dei risultati. `Scopri come leggere il report dettagliato dei risultati </report-e-risultati.html>`_
+
 
 Visualizzare lo storico delle scansioni
 -----------------------------------------
