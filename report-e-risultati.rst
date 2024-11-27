@@ -6,11 +6,10 @@ Una volta effettuata l’analisi, il report si aprirà automaticamente.
 
 Il report è composto da:
 
-1. Banner superiore
+1. Barra superiore
 2. Indicazione della documentazione di riferimento
 3. Panoramica del risultato
 4. Dettaglio dei risultati
-5. Banner inferiore
 
 
 .. figure:: media/report-completo.png
@@ -23,7 +22,7 @@ Il report è composto da:
 Barra superiore
 ----------------------
 
-Nel banner superiore del report trovi:
+Nella barra superiore del report trovi:
 
 1. il dominio del sito web che è stato scansionato;
 2. data e ora in cui il report è stato generato;
@@ -77,8 +76,8 @@ Dettaglio dei risultati
 Nella sezione del dettaglio dei risultati trovi, in alto, la **legenda** che indica come vengono segnalati i **controlli superati (verde)**, **falliti (rosso)** e **con errore (simbolo X rosso)**.
 
 .. figure:: media/report-legenda.png
-   :alt:  La sezione con la panoramica di un risultato con errori.
-   :name: risultato-generale-errore
+   :alt:  La legenda per i risultati.
+   :name: dettaglio-risultati-legenda
 
 
 Sotto la leggenda trovi una serie di sezioni espandibili con:
@@ -90,34 +89,35 @@ Sotto la leggenda trovi una serie di sezioni espandibili con:
 5. il link al report di lighthouse, che non è oggetto di verifica della misura ma offre indicazioni su prestazioni e accessibilità del sito.
 
 .. figure:: media/report-accordion.png
-   :alt:  La sezione con la panoramica di un risultato con errori.
-   :name: risultato-generale-errore
+   :alt:  Le sezioni espandibili con i dettagli del risultato.
+   :name: dettaglio-risultati
 
 
 Espandendo un accordion, trovi:
 
-a. la lista dei controlli per quella categoria con un bollino che mostra il risultato della scansione per ogni controllo
+- a. la lista dei controlli per quella categoria con un bollino che mostra il risultato della scansione per ogni controllo
 
 Al clic su un elemento della lista, trovi:
 
-b. il bollino del risultato del controllo (spunta verde se superato, punto esclamativo rosso se fallito);
-c. il codice e il nome del controllo;
-d. il dettaglio del controllo, che puoi espandere per approfondire i requisiti di successo, le modalità di verifica e i riferimenti normativi;
-e. il resoconto del controllo - testo che riporta la presenza di errori nelle pagine scansionate. Nel caso in cui ci siano raccomandazioni che risultano non essere superate, il testo riporta la presenza di errori nelle pagine scansionate
-f. una tabella di dettaglio con ulteriori informazioni sul risultato.
+- b. il bollino del risultato del controllo (spunta verde se superato, punto esclamativo rosso se fallito);
+- c. il codice e il nome del controllo;
+- d. il dettaglio del controllo, che puoi espandere per approfondire i requisiti di successo, le modalità di verifica e i riferimenti normativi;
+- e. il resoconto del controllo - testo che riporta la presenza di errori nelle pagine scansionate. Nel caso in cui ci siano raccomandazioni che risultano non essere superate, il testo riporta la presenza di errori nelle pagine scansionate
+- f. una tabella di dettaglio con ulteriori informazioni sul risultato.
 
 .. figure:: media/report-dettagli-risultati.png
-   :alt:  La sezione con la panoramica di un risultato con errori.
-   :name: risultato-generale-errore
+   :alt:  Il dettaglio di un singolo risultato.
+   :name: dettaglio-risultato-specifico
+
 
 .. attention ::
 
-   N.B.: non tutti i criteri e le raccomandazioni hanno la stessa modalità di visualizzazione dei risultati della scansione, alcune viste possono variare a seconda dei requisiti richiesti e potrebbero presentare informazioni aggiuntive o mancanti.
+   Non tutti i criteri e le raccomandazioni presentano le stesse informazioni sui risultati, ma variano a seconda dei requisiti richiesti.
 
 
-Risultato con errore di navigazione per homepage
-Nel caso in cui la pagina che presenta un errore di navigazione sia la homepage del sito la scansione risulterà fallita, di conseguenza, il report riporterà i criteri che non è stato possibile verificare e non verrà generato l’accordion per visualizzare la lista dei criteri superati. 
-Dal momento che la navigazione per la homepage risulta fallita, il report di Lighthouse non verrà generato e l’accordion riportante il dettaglio del report non sarà visibile.
+.. attention ::
+
+   Nel caso in cui la pagina che presenta un errore sia la homepage del sito, la scansione risulterà fallita. Il report riporterà i criteri che non è stato possibile verificare, ma non verranno presentati la lista dei criteri superati e il report di Lighthouse.
 
 
 
