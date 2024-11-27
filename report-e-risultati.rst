@@ -95,15 +95,15 @@ Sotto la leggenda trovi una serie di sezioni espandibili con:
 
 Espandendo un accordion, trovi:
 
-- a. la lista dei controlli per quella categoria con un bollino che mostra il risultato della scansione per ogni controllo
+- a) la lista dei controlli per quella categoria con un bollino che mostra il risultato della scansione per ogni controllo
 
 Al clic su un elemento della lista, trovi:
 
-- b. il bollino del risultato del controllo (spunta verde se superato, punto esclamativo rosso se fallito);
-- c. il codice e il nome del controllo;
-- d. il dettaglio del controllo, che puoi espandere per approfondire i requisiti di successo, le modalità di verifica e i riferimenti normativi;
-- e. il resoconto del controllo - testo che riporta la presenza di errori nelle pagine scansionate. Nel caso in cui ci siano raccomandazioni che risultano non essere superate, il testo riporta la presenza di errori nelle pagine scansionate
-- f. una tabella di dettaglio con ulteriori informazioni sul risultato.
+- b) il bollino del risultato del controllo (spunta verde se superato, punto esclamativo rosso se fallito);
+- c) il codice e il nome del controllo;
+- d) il dettaglio del controllo, che puoi espandere per approfondire i requisiti di successo, le modalità di verifica e i riferimenti normativi;
+- e) il resoconto del controllo - testo che riporta la presenza di errori nelle pagine scansionate. Nel caso in cui ci siano raccomandazioni che risultano non essere superate, il testo riporta la presenza di errori nelle pagine scansionate
+- f) una tabella di dettaglio con ulteriori informazioni sul risultato.
 
 .. figure:: media/report-dettagli-risultati.png
    :alt:  Il dettaglio di un singolo risultato.
