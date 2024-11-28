@@ -15,8 +15,8 @@ Vai sul `repository GitHub <https://github.com/italia/pa-website-validator-gui/r
 
 Assicurati che la release sia l’ultima disponibile, contrassegnata dall’etichetta verde «Latest».
 
-Abilitazione app su MacOS
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**Abilitazione app su MacOS**
+
 Potresti ricevere un avviso da MacOS che indica che l’app proviene da uno sviluppatore non riconosciuto. Per abilitare l’app, segui questi passaggi dopo aver scaricato il file ZIP:
 
 1. apri il Terminale;
@@ -28,8 +28,8 @@ oppure
 2. vai alla sezione "Sicurezza", dove troverai un messaggio riguardante il file che hai appena cercato di aprire. Clicca su “Apri comunque”. Potrebbe comparire un’ulteriore finestra di dialogo dove è necessario cliccare su “Apri”.
 
 
-Abilitazione app su Windows
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**Abilitazione app su Windows**
+
 Potresti ricevere un avviso da Windows che indica che l’app proviene da uno sviluppatore non riconosciuto. Per procedere con l’installazione, segui questi passaggi dopo aver scaricato il file ZIP:
 
 - apri il file .exe;
