@@ -42,7 +42,7 @@ Avviare una scansione
 
 Nella tab "Nuova scansione":
 
-1. Seleziona la **tipologia ente** (Comune o Scuola);
+1. Seleziona la **tipologia ente** (Comune o Scuola), cliccando sul menu a comparsa;
 
 2. inserisci la **URL del sito** da scansionare, includendo il protocollo http:// o https://;
 
@@ -52,14 +52,22 @@ Nella tab "Nuova scansione":
 
 5. clicca il pulsante "Avvia scansione" per avviare la scansione.
 
+.. figure:: media/nuova-scansione.png
+   :alt: L'interfaccia dell'app per avviare una nuova scansione.
+   :name: nuova-scansione
+
+
 Avviata la scansione, non sarà più possibile modificare i dati e le preferenze, ma dovrai cliccare sul pulsante "Annulla scansione" e avviarne una nuova.
 
 Durante la scansione, verranno visualizzati:
 
-- le impostazioni avanzate selezionate (accuratezza, pagine scansionate simultaneamente, timeout);
-- una barra di avanzamento della scansione;
-- la lista dei log delle verifiche che l'app sta effettuando.
+- (a) le impostazioni avanzate selezionate (accuratezza, pagine scansionate simultaneamente, timeout);
+- (b) una barra di avanzamento della scansione;
+- (c) la lista dei log delle verifiche che l'app sta effettuando.
 
+.. figure:: media/durante-scansione.png
+   :alt: L'interfaccia dell'app durante la scansione.
+   :name: durante-scansione
 
 
 Visualizzare il risultato della scansione e accedere al report dettagliato
@@ -71,6 +79,10 @@ Conclusa la scansione, si aprirà un resoconto riassuntivo che mostrerà:
 - una sezione espandibile "Consulta il log" con la lista dei log delle verifiche svolte dall'app.
 
 Al clic sui pulsanti in altro a destra puoi visualizzare o scaricare il report dettagliato dei risultati. `Scopri come leggere il report dettagliato dei risultati </report-e-risultati.html>`_
+
+.. figure:: media/risultato-scansione.png
+   :alt: Il report completo.
+   :name: report-completo
 
 
 Visualizzare lo storico delle scansioni
