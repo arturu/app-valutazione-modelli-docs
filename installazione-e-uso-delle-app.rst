@@ -1,8 +1,31 @@
 Installazione e uso delle app
 =============================
 
+Le App di valutazione sono distribuite sotto forma di file zip, contenenti l’eseguibile del programma e un file readme di istruzioni.
+
+
 Installare le app
 ---------------------
+
+Vai sul repository GitHub e individua l’app corretta in base sistema operativo (macOS/windows/linux) e processore (intel/arm64/x64) e clicca per scaricare il file zip. Assicurati che la release sia l’ultima disponibile, contrassegnata dall’etichetta verde «Latest».
+
+Abilitazione app su MacOS
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Potresti ricevere un avviso da MacOS che indica che l’app proviene da uno sviluppatore non riconosciuto. Per abilitare l’app, segui questi passaggi dopo aver scaricato il file ZIP:
+
+1. apri il Terminale;
+2. esegui il  comando `xattr -rd com.apple.quarantine DTD-AppDiValutazione-XYZ-mac.zip`.
+
+Questo comando rimuove le restrizioni impostate dal sistema per consentire l’apertura del file.
+
+Abilitazione app su Windows
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Potresti ricevere un avviso da Windows che indica che l’app proviene da uno sviluppatore non riconosciuto. Per procedere con l’installazione, segui questi passaggi dopo aver scaricato il file ZIP:
+
+- apri il file .exe'
+- nella finestra di avviso, clicca su “Ulteriori informazioni”;
+- clicca il pulsante “Esegui comunque” per avviare l’app.
+
 
 Avviare una scansione
 ------------------------------
