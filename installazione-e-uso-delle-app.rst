@@ -42,7 +42,7 @@ Avviare una scansione
 
 Nella tab "Nuova scansione":
 
-1. Seleziona la **tipologia ente** (Comune o Scuola), cliccando sul menu a comparsa;
+1. seleziona la **tipologia ente** (Comune o Scuola), cliccando sul menu a comparsa;
 
 2. inserisci la **URL del sito** da scansionare, includendo il protocollo http:// o https://;
 
