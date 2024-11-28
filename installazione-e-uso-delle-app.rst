@@ -22,7 +22,11 @@ Potresti ricevere un avviso da MacOS che indica che l’app proviene da uno svil
 1. apri il Terminale;
 2. esegui il  comando `xattr -rd com.apple.quarantine DTD-AppDiValutazione-XYZ-mac.zip`.
 
-Questo comando rimuove le restrizioni impostate dal sistema per consentire l’apertura del file.
+oppure
+
+1. sul tuo mac, vai a Impostazioni di sistema > Privacy e sicurezza;
+2. vai alla sezione "Sicurezza", dove troverai un messaggio riguardante il file che hai appena cercato di aprire. Clicca su “Apri comunque”. Potrebbe comparire un’ulteriore finestra di dialogo dove è necessario cliccare su “Apri”.
+
 
 Abilitazione app su Windows
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
