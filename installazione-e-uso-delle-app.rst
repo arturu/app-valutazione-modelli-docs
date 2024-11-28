@@ -3,11 +3,17 @@ Installazione e uso delle app
 
 Le App di valutazione sono distribuite sotto forma di file zip, contenenti l’eseguibile del programma e un file readme di istruzioni.
 
+.. attention::
+
+  L'app necessita di un computer con almeno 16GB di RAM per una corretta esecuzione.
+
 
 Installare le app
 ---------------------
 
-Vai sul repository GitHub e individua l’app corretta in base sistema operativo (macOS/windows/linux) e processore (intel/arm64/x64) e clicca per scaricare il file zip. Assicurati che la release sia l’ultima disponibile, contrassegnata dall’etichetta verde «Latest».
+Vai sul `repository GitHub <https://github.com/italia/pa-website-validator-gui/releases/>`_, individua l’app corretta in base a sistema operativo e processore (macOS arm64, macOS Intel, Windows, Linux) e clicca per scaricare il file zip. 
+
+Assicurati che la release sia l’ultima disponibile, contrassegnata dall’etichetta verde «Latest».
 
 Abilitazione app su MacOS
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -22,7 +28,7 @@ Abilitazione app su Windows
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Potresti ricevere un avviso da Windows che indica che l’app proviene da uno sviluppatore non riconosciuto. Per procedere con l’installazione, segui questi passaggi dopo aver scaricato il file ZIP:
 
-- apri il file .exe'
+- apri il file .exe;
 - nella finestra di avviso, clicca su “Ulteriori informazioni”;
 - clicca il pulsante “Esegui comunque” per avviare l’app.
 
