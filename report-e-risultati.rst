@@ -1,9 +1,6 @@
 Il report e i risultati
 =======================
 
-Una volta effettuata l’analisi, il report si aprirà automaticamente.
-
-
 Il report è composto da:
 
 1. Barra superiore
@@ -28,7 +25,7 @@ Nella barra superiore del report trovi:
 2. data e ora in cui il report è stato generato;
 3. la versione dell'app di valutazione.
 
-.. figure:: media/report-superiore-report.png
+.. figure:: media/report-barra-superiore.png
    :alt: La barra superiore del report.
    :name: barra-superiore-report
 
