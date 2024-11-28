@@ -61,9 +61,9 @@ Avviata la scansione, non sarà più possibile modificare i dati e le preferenze
 
 Durante la scansione, verranno visualizzati:
 
-- (a) le impostazioni avanzate selezionate (accuratezza, pagine scansionate simultaneamente, timeout);
-- (b) una barra di avanzamento della scansione;
-- (c) la lista dei log delle verifiche che l'app sta effettuando.
+- le impostazioni avanzate selezionate (a): accuratezza, pagine scansionate simultaneamente, timeout;
+- una barra di avanzamento della scansione (b);
+- (c) la lista dei log delle verifiche che l'app sta effettuando (c).
 
 .. figure:: media/durante-scansione.png
    :alt: L'interfaccia dell'app durante la scansione.
@@ -74,15 +74,15 @@ Visualizzare il risultato della scansione e accedere al report dettagliato
 -----------------------------------------------------------------------------
 Conclusa la scansione, si aprirà un resoconto riassuntivo che mostrerà:
 
-- il risultato generale della scansione (OK verde per risultato positivo, KO rosso per risultato negativo, X rossa per errori nella scansione);
-- una sezione espandibile "Criteri e raccomandazioni", con la lista delle verifiche svolte e il relativo risultato. In questa sezione puoi cambiare la selezione dei criteri e/o delle raccomandazioni e avviare una nuova scansione, cliccando sul pulsante "Riavvia scansione";
-- una sezione espandibile "Consulta il log" con la lista dei log delle verifiche svolte dall'app.
+- il risultato generale della scansione (OK verde per risultato positivo, KO rosso per risultato negativo, X rossa per errori nella scansione) e il dettaglio dei criteri superati (a);
+- una sezione espandibile "Criteri e raccomandazioni" (b), con la lista delle verifiche svolte e il relativo risultato. In questa sezione puoi cambiare la selezione dei criteri e/o delle raccomandazioni e avviare una nuova scansione, cliccando sul pulsante "Riavvia scansione";
+- una sezione espandibile "Consulta il log" (c) con la lista dei log delle verifiche svolte dall'app.
 
-Al clic sui pulsanti in altro a destra puoi visualizzare o scaricare il report dettagliato dei risultati. `Scopri come leggere il report dettagliato dei risultati </report-e-risultati.html>`_
+Al clic sui pulsanti in altro a destra puoi visualizzare (d) o scaricare (e) il report dettagliato dei risultati. `Scopri come leggere il report dettagliato dei risultati </report-e-risultati.html>`_
 
 .. figure:: media/risultato-scansione.png
-   :alt: Il report completo.
-   :name: report-completo
+   :alt: Il risultato della scansione.
+   :name: risultato-scansione
 
 
 Visualizzare lo storico delle scansioni
@@ -94,9 +94,11 @@ Per ogni scansione, trovi le informazioni sulla tipologia di ente, l'url del sit
 
 Cliccando sui pulsanti di fianco ogni scansione, puoi:
 
-1. vedere il dettaglio della scansione;
-2. visualizzare il report dettagliato;
-3. scaricare il report;
-4. eliminare la scansione e il relativo report dallo storico.
+- vedere il dettaglio della scansione (a);
+- visualizzare il report dettagliato (b);
+- scaricare il report (c);
+- eliminare la scansione e il relativo report dallo storico (d).
 
-
+.. figure:: media/storico-scansioni.png
+   :alt: Lo storico delle scansioni.
+   :name: storico-scansioni
