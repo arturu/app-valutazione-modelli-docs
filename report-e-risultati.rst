@@ -1,105 +1,125 @@
 Il report e i risultati
 =======================
 
-Una volta effettuata l’analisi, il report si aprirà automaticamente. Il report viene salvato nella cartella indicata dall'App.
+Il report è composto da:
+
+1. Barra superiore
+2. Indicazione della documentazione di riferimento
+3. Panoramica del risultato
+4. Dettaglio dei risultati
+
+
+.. figure:: media/report-completo.png
+   :alt: Il report completo.
+   :name: report-completo
+
+
+
 
 Barra superiore
----------------
+----------------------
 
-.. figure:: media/barra-superiore-report.png
-   :alt: La figura mostra la barra superiore del report generato dall'App di valutazione.
+Nella barra superiore del report trovi:
+
+1. il dominio del sito web che è stato scansionato;
+2. data e ora in cui il report è stato generato;
+3. la versione dell'app di valutazione.
+
+.. figure:: media/report-barra-superiore.png
+   :alt: La barra superiore del report.
    :name: barra-superiore-report
 
-   Barra superiore del report.
-
-.. attention::
-
-   Nella barra superiore, i colori e il punteggio degli indicatori **non indicano** il risultato del superamento dei test. Il risultato dei test viene indicato dal messaggio "Risultato" nella tabella di ogni test singolo e dalla relativa icona (verde, gialla, rossa).
-
-Il punteggio è valido solo per **Velocità e tempi risposta** (Criterio *C.SI.4.1 - Velocità e tempi di risposta* per i siti dei Comuni e Raccomandazione progettuale *R.SC.3.1 - Velocità e tempi di risposta* per i siti delle scuole. 
-
-Per i gruppi di criteri, il numero visualizzato è una percentuale di quanti test sono stati passati in quel gruppo ma non è da considerarsi valido ai fini del processo di valutazione tecnica. 
-
-Cliccando su un criterio o un gruppo, puoi saltare alla sezione del report con informazioni aggiuntive.
 
 
-Legenda
--------
-
-**Pallino verde:** il test è superato (successo).
-
-**Quadrato giallo:** il test è superato ma ci sono spazi di miglioramento (tolleranza).
-
-**Triangolo rosso:** il test non è stato superato (fallimento).
-
-**Cerchio grigio:** il test è informativo e fornisce informazioni sulle buone pratiche da rispettare, ma non restituisce una valutazione applicata al sito analizzato.
-
-
-Sezione Velocità e tempi di risposta
-------------------------------------
-
-Questa sezione fa riferimento nello specifico al criterio *C.SI.4.1 - Velocità e tempi di risposta* per i siti dei Comuni e alla raccomandazione progettuale *R.SC.3.1 - Velocità e tempi di risposta* per i siti delle scuole.
-
-Nella sezione *Metriche* (1), vengono presentati i risultati delle 6 metriche (First Contentful Paint, Speed Index, Largest Contentful Paint, Time to Interactive, Total Blocking Time, Cumulative Layout Shift) che concorrono al punteggio del criterio di conformità o della raccomandazione. 
-
-Per i siti dei Comuni soltanto, nel caso di punteggio totale inferiore a 50, è necessario pubblicare sul sito comunale un «Piano di miglioramento del sito» che mostri, per ciascuna metrica che impatta negativamente la performance, le azioni future di miglioramento della performance stessa e le relative tempistiche di realizzazione attese.
-
-.. figure:: media/metriche-velocita.png
-   :alt: La sezione del report che il presenta le metriche relative alla velocità del sito.
-   :name: metriche-velocita
-
-   La sezione del report che il presenta le metriche relative alla velocità del sito.
-
-Le sezioni *Opportunità* (2), *Diagnostica* (3) e *Controlli superati* (4) mostrano i risultati di altri test che lighthouse svolge in automatico. Possono essere utili a valutare miglioramenti del sito.
-
-.. figure:: media/altro-velocita.png
-   :alt: La sezione del report che il presenta i risultati di altri test relativi alla velocità del sito.
-   :name: barra-superiore-report
-
-   La sezione del report che il presenta i risultati di altri test relativi alla velocità del sito.
-
-
-Sezione criteri o raccomandazioni
+Documentazione di riferimento
 ---------------------------------
+Al di sotto della barra superiore, trovi i riferimenti ai documenti ufficiali della Misura 1.4.1 su cui si basano le verifiche effettuate durante la scansione.
 
-Le altre sezioni del report mostrano i risultati relativi ai criteri di conformità e alle raccomandazioni, suddivisi per tipologia (Esperienza utente, Funzionalità, Normativa, Performance, Sicurezza).
+.. figure:: media/report-documentazione.png
+   :alt: La sezione del report con la documentazione di riferimento.
+   :name: report-documentazione
 
-In alto (1) vengono visualizzati i test non superati (fallimento), quelli superati ma che presentano spazi di miglioramento (tolleranza) e quelli informativi.
+Panoramica del risultato
+---------------------------
+In questa sezione del report, sotto forma di rappresentazione grafica, trovi:
 
-I test superati (successo) vengono raggruppati in basso (2).
-
-.. figure:: media/criteri-conformita.png
-   :alt: La sezione del report che il presenta i risultati dei test sui criteri di conformità non superati, superati con tolleranza e informativi.
-   :name: criteri-conformita
-
-   La sezione del report che il presenta i risultati dei test sui criteri di conformità non superati, superati con tolleranza e informativi.
-   
-   
-Per ogni test effettuato sui criteri di conformità, è possibile espandere la sezione per trovare informazioni aggiuntive:
-
-- il nome della categoria di appartenenza (1);
-- il codice, il titolo e la descrizione del criterio di conformità (2);
-- le condizioni di successo per superare il test dell'App di valutazione, ma che non corrispondono necessariamente alle condizioni per superare il criterio di conformità (3);
-- le modalità di verifica, ovvero in che modo l'app effettua il test (4);
-- i link ai riferimenti tecnici e normativi (5);
-- il risultato dettagliato del test, con le eventuali specifiche per migliorare il punteggio (6).
-
-.. figure:: media/criteri-conformita-dettaglio.png
-   :alt: Le informazioni di dettaglio per ogni test riguardante i criteri di conformità.
-   :name: criteri-conformita
-
-   Le informazioni di dettaglio per ogni test riguardante i criteri di conformità.
+1. il risultato generale della scansione;
+2. il dettaglio dei criteri di conformità superati, divisi per pacchetto, espresso in percentuale (ad esempio 100%, 60%, 0%, ecc.) e in numeri (ad esempio, 9 criteri su 9 superati, 16 criteri su 20 superati, ecc.).
 
 
+Il risultato generale è *positivo* nel caso in cui tutti i criteri siano stati superati e il grafico presenterà un “OK” bianco in un cerchio verde. 
 
-Sezione Test aggiuntivi
------------------------
+.. figure:: media/risultato-generale-positivo.png
+   :alt: La sezione con la panoramica di un risultato positivo.
+   :name: risultato-generale-positivo
 
-In questa sezione viene presentato il risultato per la raccomandazione Localizzazione IP.
 
-Tutti gli altri sono test standard forniti da Lighthouse. Non sono rilevanti in termini di raggiungimento dei criteri di conformità, ma rappresentano comunque indicazioni utili a valutare eventuali miglioramenti del sito.
+Nel caso in cui anche solo un criterio non sia superato, il risultato generale sarà *negativo* e il grafico presenterà un “KO” bianco in un cerchio rosso.
 
-Il risultato e le indicazioni di alcuni di questi test sono in inglese come impostazione default di Lighthouse e non è possibile cambiare lingua.
+.. figure:: media/risultato-generale-negativo.png
+   :alt:  La sezione con la panoramica di un risultato negativo.
+   :name: risultato-generale-negativo
+
+
+Nel caso in cui una o più pagine presentino errori di navigazione che impediscono la scansione dei criteri, il risultato generale sarà *fallito per errore (negativo)* e il grafico presenterà una “X” rossa in un cerchio bianco.
+
+.. figure:: media/risultato-generale-errore.png
+   :alt:  La sezione con la panoramica di un risultato con errori.
+   :name: risultato-generale-errore
+
+
+Dettaglio dei risultati
+--------------------------
+Nella sezione del dettaglio dei risultati trovi, in alto, la **legenda** che indica come vengono segnalati i **controlli superati (verde)**, **falliti (rosso)** e **con errore (simbolo X rosso)**.
+
+.. figure:: media/report-legenda.png
+   :alt:  La legenda per i risultati.
+   :name: dettaglio-risultati-legenda
+
+
+Sotto la leggenda trovi una serie di sezioni espandibili con:
+
+1. i dettagli dei controlli che hanno generato errori;
+2. i dettagli dei criteri non superati;
+3. i dettagli dei criteri superati;
+4. i dettagli delle raccomandazioni non obbligatorie;
+5. il link al report di lighthouse, che non è oggetto di verifica della misura ma offre indicazioni su prestazioni e accessibilità del sito.
+
+.. figure:: media/report-accordion.png
+   :alt:  Le sezioni espandibili con i dettagli del risultato.
+   :name: dettaglio-risultati
+
+
+Espandendo un accordion, trovi:
+
+(a) la lista dei controlli per quella categoria con un bollino che mostra il risultato della scansione per ogni controllo (a).
+
+Al clic su un elemento della lista, trovi:
+
+(b) il bollino del risultato del controllo (b) - spunta verde se superato, punto esclamativo rosso se fallito;
+(c) il codice e il nome del controllo (c);
+(d) il dettaglio del controllo (d), che puoi espandere per approfondire i requisiti di successo, le modalità di verifica e i riferimenti normativi;
+(e) il resoconto del controllo (e) - testo che riporta la presenza di errori nelle pagine scansionate. Nel caso in cui ci siano raccomandazioni che risultano non essere superate, il testo riporta la presenza di errori nelle pagine scansionate
+(f) una tabella di dettaglio con ulteriori informazioni sul risultato (f).
+
+.. figure:: media/report-dettagli-risultati.png
+   :alt:  Il dettaglio di un singolo risultato.
+   :name: dettaglio-risultato-specifico
+
+
+.. attention ::
+
+   Non tutti i criteri e le raccomandazioni presentano le stesse informazioni sui risultati, ma variano a seconda dei requisiti richiesti.
+
+
+.. attention ::
+
+   Nel caso in cui la pagina che presenta un errore sia la homepage del sito, la scansione risulterà fallita. Il report riporterà i criteri che non è stato possibile verificare, ma non verranno presentati la lista dei criteri superati e il report di Lighthouse.
+
+
+
+
+
 
 
 

@@ -4,6 +4,10 @@ Il registro delle modifiche apportate alla documentazione dell'App di valutazion
 
 Per consultare la versione aggiornata del changelog, assicurati di aver selezionato la versione "versione-attuale" della documentazione dal menu a tendina in alto.
 
+29 novembre 2024
+--------------------
+Aggiornati i capitoli "Installazione e uso dell'app" e "Report e risultati" con le nuove indicazioni a seguito del rilascio di un'aggiornamento dell'applicazione.
+
 26 settembre 2023
 -------------------
 `5. Requisiti tecnici e modalità di verifica per il modello Comuni - Criterio C.SI.1.2 - Libreria di elementi di interfaccia <https://docs.italia.it/italia/designers-italia/app-valutazione-modelli-docs/it/versione-attuale/requisiti-e-modalita-verifica-comuni.html#criterio-c-si-1-2-libreria-di-elementi-di-interfaccia>`_ - aggiornate le condizioni di successo e le modalità di verifica
