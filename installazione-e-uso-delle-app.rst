@@ -1,7 +1,7 @@
 Installazione e uso delle app
 =============================
 
-Le App di valutazione sono distribuite sotto forma di file zip, contenenti l’eseguibile del programma e un file readme di istruzioni.
+L'App di valutazione è distribuita sotto forma di file zip che contengono l’eseguibile del programma.
 
 .. attention::
 
