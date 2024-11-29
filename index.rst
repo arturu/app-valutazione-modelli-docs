@@ -11,7 +11,7 @@ Documentazione dell'App di valutazione dell’adesione ai modelli
    :maxdepth: 1
    :caption: Indice dei contenuti
 
-   cosa-sono-cosa-fanno.rst
+   cos-e-e-cosa-fa.rst
    criteri-conformita.rst
    installazione-e-uso-dell-app.rst
    report-e-risultati.rst
