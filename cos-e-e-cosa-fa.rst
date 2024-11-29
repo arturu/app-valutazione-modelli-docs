@@ -1,4 +1,4 @@
-Cosa sono e cosa fanno
+Cos'è e cosa fa
 ======================
 
 L'App di valutazione dell’adesione ai modelli è uno strumento a supporto del processo di verifica della corretta adesione ai `modelli di Designers Italia <https://designers.italia.it/modelli/>`_ per i Comuni e le scuole.
