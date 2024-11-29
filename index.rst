@@ -1,10 +1,10 @@
 ================================================================
-Documentazione delle App di valutazione dell’adesione ai modelli 
+Documentazione dell'App di valutazione dell’adesione ai modelli 
 ================================================================
 
 .. highlights::
 
-   Le App di valutazione dell’adesione ai modelli sono uno strumento a supporto del processo di verifica della corretta adesione ai `modelli di Designers Italia <https://designers.italia.it/modelli/>`_ per i Comuni e le scuole.
+   L'App di valutazione dell’adesione ai modelli è uno strumento a supporto del processo di verifica della corretta adesione ai `modelli di Designers Italia <https://designers.italia.it/modelli/>`_ per i Comuni e le scuole.
 
 .. toctree::
    :numbered:
