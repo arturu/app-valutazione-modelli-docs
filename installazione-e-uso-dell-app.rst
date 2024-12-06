@@ -17,7 +17,7 @@ Assicurati che la release sia l’ultima disponibile, contrassegnata dall’etic
 
 **Abilitazione app su Linux**
 
-Per abilitare l'app assegnale i permessi di esecuzione. Fai clic con il tasto destro sul file scaricato e seleziona "Proprietà" > "Permessi"; quindi spunta la casella "Consenti l'esecuzione del file come programma".
+Per abilitare l'app, assegnale i permessi di esecuzione. Fai clic con il tasto destro sul file scaricato e seleziona "Proprietà" > "Permessi"; quindi spunta la casella "Consenti l'esecuzione del file come programma".
 
 Apri l'app facendo doppio clic sul file scaricato.
 
